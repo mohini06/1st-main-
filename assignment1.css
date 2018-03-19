@@ -1,0 +1,134 @@
+
+#container{
+	
+	position: relative;
+	border: 5px solid balck;
+	height:700px;
+	width:600px;
+	margin: 50px;
+	border:2px solid black;
+}
+	#layer1{
+    position: absolute;
+	
+	height:500px;
+	width:500px;
+    top:10px;
+    left:20px;
+     z-index: 30;
+		
+}
+.circle1{
+	position: relative;
+	background:white;
+	height:100px;
+	width:100px;
+	border-radius:50px 50px 50px;
+	float:left;
+    margin:0px;
+    opacity:0.5;
+    padding:5px 0;
+    cursor: pointer;
+    transition: 0.7s;   
+}
+.circle1:hover{
+	background:green;
+	transform: rotate(360deg);
+}
+
+#layer2{
+
+	position: absolute;
+	
+	height: 400px;
+	width:400px;
+	top:70px;
+	left:70px;
+	z-index: 20;
+	opacity: 0.5;
+	
+}
+.circle2{
+	position: relative;
+	background:red;
+	height:100px;
+	width:100px;
+	border-radius:50px 50px 50px;
+	float:left;
+    margin:0px;
+   padding: 5px 0;
+   cursor: pointer;
+    transition: 0.7s;
+    opacity: 1;
+    
+}
+.circle2:hover{
+	background: lightblue;
+	transform: rotate(360deg);
+}
+#layer3{
+
+	position: absolute;
+	
+	height: 400px;
+	width:400px;
+	top:120px;
+	left:120px;
+	z-index: 10;
+	opacity: 0.5;
+	
+}
+.circle3{
+	position: relative;
+	background:blue;
+	height:100px;
+	width:100px;
+	border-radius:50px 50px 50px;
+	float:left;
+    margin:0px;
+    padding: 5px 0;
+   cursor: pointer;
+    transition: 0.7s;
+    opacity: 1;
+    
+}
+.circle3:hover{
+	background: yellow;
+	transform: rotate(360deg);
+}
+
+
+#layer4{
+
+	position: absolute;
+	
+	height: 500px;
+	width:400px;
+	top:70px;
+	left:170px;
+	z-index: 40;
+	opacity: 0.5;
+	
+}   
+.circle4{
+	position: relative;
+	background:white;
+	height:100px;
+	width:100px;
+	border-radius:50px 50px 50px;
+	float:left;
+    margin:0px;
+    padding: 5px 0;
+   cursor: pointer;
+    transition: 0.7s;
+    opacity: 1;
+} 
+.circle4:hover{
+	background: magenta;
+	transform: rotate(360deg);
+}
+    
+ 
+    
+   
+    
